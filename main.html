@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Turning Machine</title>
+    <link rel="stylesheet" href="design.css" />
+</head>
+<body>
+    <h1 id="title">CCLARY_C'S TM
+        <h4 id="subtitle"></h4>
+        <div id="steps">Steps:</div>
+    </h1>
+    <div id="test">Start</div>
+    <div id="flex-container"></div>
+    <textarea placeholder="Name:
+Init:
+Accept:" id="startbox"></textarea>
+    <textarea placeholder="Start" id="inputbox"></textarea>
+    <div class="inputt">
+    <textarea placeholder="Rules" id="textbox"></textarea>
+    <button type="submit" id="submit">READY</button>
+    </div>
+</body>
+<script src="utils.js"></script>
+</html>
+
+<!-- Exemplu de utilizare:
+Mașină Turing care primește un șir binar și verifică dacă începe și se termină cu simboluri distincte
+
+Simboluri distincte
+Start
+Y,N
+
+11111101
+
+Start,0
+start0,0,>
+Start,_
+Y,_,-
+Start,1
+start1,1,>
+start1,1
+start1,1,>
+start1,0
+start1,0,>
+start1,_
+find1,_,<
+start0,_
+find0,_,<
+start0,0
+start0,0,>
+start0,1
+start0,1,>
+find0,0
+N,0,-
+find0,1
+Y,1,-
+find0,_
+N,1,-
+find1,0
+Y,0,-
+find1,1
+N,1,-
+find0,_
+N,1,-
+
+
+Expected output:Y -->

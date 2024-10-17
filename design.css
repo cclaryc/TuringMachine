@@ -1,0 +1,124 @@
+#title{
+    margin: auto; 
+    text-align: center;
+    margin-block: 25px;
+    color: rgb(125, 90, 80);
+    font-weight: bold;       
+    text-shadow: 2px 2px 5px rgba(125, 90, 80, 0.5);  
+}
+#flex-container{
+    display: flex;
+    background-color:rgb(125, 90, 80);
+    flex-direction: row;
+    justify-content: center;
+    overflow: auto;
+    border-radius: 10px;
+}
+#flex-container > div {
+    background-color:rgb(180, 132, 108);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    flex-basis: 75px;
+    flex-grow: 0;     
+    flex-shrink: 0;   
+    border-radius: 5px;
+  }
+#textbox {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 350px;
+    height: 200px;
+    text-align: left;       
+    vertical-align: top;    
+    line-height: normal;    
+    line-height: 1.2; 
+    resize: both;
+    background-color:rgb(229, 178, 153);
+    border-radius: 5px;
+  }
+  #test {
+    background: url('z_finger.png')center center no-repeat;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-left: 0px;
+    text-align:center;
+    /* transform: translateX(500px); 100px */
+    background-size: contain;
+    display: flex;                
+    justify-content: center;      
+    align-items:top;         
+    color: rgb(125, 90, 80);        
+    font-size: 19px;         
+    font-weight: bold;      
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+    transition: transform 0.5s;  
+}
+
+button{
+        margin-left: 50px;
+        margin-top: 250px;
+        cursor: pointer;
+        width: 60px;
+        height: 40px;
+        border-color: rgb(125, 90, 80);
+        background-color: rgb(180, 132, 108);
+        border-radius: 3px;    
+        box-shadow: 2px 2px 3px rgba(180, 132, 108, 0.5);  
+        color: rgba(1)80, 132, 108;
+}
+
+.inputt{
+    flex-direction: column;
+    display: inline-block;
+}
+#inputbox{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 650px;
+    height: 50px;
+    text-align: left;       
+    line-height: normal;    
+    line-height: 1.2; 
+    resize: both;
+    background-color:rgb(229, 178, 153);
+    display: block;
+    border-radius: 5px;
+}
+#startbox{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 80px;
+    text-align: left;       
+    line-height: normal;    
+    line-height: 1.2; 
+    resize: both;
+    background-color:rgb(229, 178, 153);
+    display: block;
+    border-radius: 5px;
+}
+.highlight {
+    background-color: rgb(180, 132, 108); 
+    padding: 2px; 
+}
+body {
+    background-color:rgb(252, 222, 192);
+}
+#subtitle{
+    margin: auto; 
+    text-align: center;
+    margin-block: 25px;
+    color: rgb(125, 90, 80);
+    font-weight: bold;       
+    text-shadow: 2px 2px 5px rgba(125, 90, 80, 0.5); 
+}
+#steps{
+    margin: auto;
+    margin-block: 25px;
+    color: rgb(125, 90, 80);
+    font-weight: bold;       
+    text-shadow: 2px 2px 5px rgba(125, 90, 80, 0.5); 
+}
