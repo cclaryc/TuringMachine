@@ -1,6 +1,6 @@
 # TuringMachine
 Proj AA Turning Machine Site
-![Turing Machine Example](https://i.ibb.co/RTTLdm0z/image-2025-03-22-222925667.png)
+![Turing Machine Example](Demo.gif)
 
 
 
