@@ -4,7 +4,7 @@ Proj AA Turning Machine Site
 
 
 
-<!-- Exemplu de utilizare:
+Exemplu de utilizare:
 Mașină Turing care primește un șir binar și verifică dacă începe și se termină cu simboluri distincte
 
 Simboluri distincte
