@@ -1,5 +1,5 @@
 # TuringMachine
-Proj AA Turning Machine Site
+Turning Machine Simulator Web Application
 ![Turing Machine Example](Demo.gif)
 
 
